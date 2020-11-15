@@ -2,10 +2,6 @@
   "name": "irhamhkm.github.io",
   "version": "1.0.0",
   "description": "portfolio web page",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon --watch src -e html,css.j index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/irhamhkm/irhamhkm.github.io.git"
@@ -20,11 +16,13 @@
     "url": "https://github.com/irhamhkm/irhamhkm.github.io/issues"
   },
   "homepage": "https://github.com/irhamhkm/irhamhkm.github.io",
-  "dependencies": {
-    "express": "^4.17.1"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
   },
+  "dependencies": {},
   "devDependencies": {
-    "nodemon": "^2.0.6",
-    "sass": "^1.29.0"
+    "browser-sync": "^2.26.13",
+    "express": "^4.17.1"
   }
 }
