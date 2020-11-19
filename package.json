@@ -16,13 +16,17 @@
     "url": "https://github.com/irhamhkm/irhamhkm.github.io/issues"
   },
   "homepage": "https://github.com/irhamhkm/irhamhkm.github.io",
+  "main": "dist/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js"
+    "build": "gulp build",
+    "dev": "gulp dev",
+    "prod": "gulp prod"
   },
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.13",
-    "express": "^4.17.1"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "sass": "^1.29.0"
   }
 }
